@@ -156,10 +156,20 @@ body {
     border: 1px solid #ddd;
     background: #fff;    
 }
+.post__wrapper:hover {
+    border-color: #000;
+}
 .post__text {
     line-height: normal;
-    color: #dbdbdb;   
     border: none; 
+    color: #000;
+    outline: none;
+}
+::placeholder {
+    line-height: normal;
+    color: #bdbdbd;   
+    background-color: transparent;
+    border: none;
 }
 .post__btn {
     width: 87px;
